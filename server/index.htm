@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>qUnit Test Runner</title>
+	<link rel="stylesheet" href="qunit.css" type="text/css" media="all">
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	  <script type="text/javascript" src="qunit.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="webdriver.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+		<style type="text/css">
+			.ui-accordion-content-active {
+			
+				height: 40px;
+			}
+			.ui-accordion-header {
+				display: block
+			}
+			.ui-accordion-header-failed {
+				background-color: red;
+			}
+		</style>
+</head>
+<body>
+	<h1 id="qunit-header">PALKKI Test Suite</h1>
+	<h2 id="qunit-banner"></h2>
+	<div id="qunit-testrunner-toolbar"></div>
+	<div id="qunit-userAgent">
+		
+	</div>
+	<ol id="qunit-tests"></ol>
+
+<div id="bar_test_area" />
+<input id="run" type="button" value="Run tests" />
+</body>
+</html>

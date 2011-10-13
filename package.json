@@ -24,5 +24,8 @@
 	},
 	"description": "An easy-to-use JavaScript Unit Testing framework.",
 	"keywords": [ "testing", "unit", "jquery" ],
-	"main": "qunit/qunit.js"
+	"main": "qunit/qunit.js",
+    "dependencies": {
+        "express": "2.4.7"
+    }
 }

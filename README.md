@@ -1,3 +1,14 @@
+Added Functionality to QUnit
+-------
+server/server.js is a simple node.js server to manage running tests on all the browsers parked 
+in its front page. Test run can be initiated by pressing the run tests button or posting to 
+/request_tests with the following body: {scripts:['unit/scripta.js','unit/scriptb.js']}.
+
+To start the server simply type node server/server.js /Path/to/test/files
+
+Then just point your browser(s) to http://localhost:3000/index.htm 
+
+
 [QUnit](http://docs.jquery.com/QUnit) - A JavaScript Unit Testing framework.
 ================================
 
